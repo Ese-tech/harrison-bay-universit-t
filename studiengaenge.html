@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harrison Bay Universität</title>
+    <link rel="stylesheet" href="./CSS-HTML/css/studiengaenge.css" />
+  </head>
+  <body>
+    <header>
+      <form action="#" class="search-container">
+        <input
+          type="background-color: #64649c;
+            background-position: bottom;"
+          id="search-box"
+          placeholder="Suchen..."
+        />
+        <button type="submit">Suchen</button>
+      </form>
+
+      <h1 class="toggle">Harrison Bay Universität</h1>
+      <nav>
+        <ul class="toggle-content">
+          <li><a href="./index.html">Startseite</a></li>
+          <li onclick="clickliste(event)">
+            <a href="./ueberuns.html" target="_blank">Über uns</a>
+            <ul class="hide">
+              <li><a href="#Über uns">Gründungs-Geschichte</a></li>
+              <li><a href="#Unsere Mission">Unsere Mission</a></li>
+              <li><a href="#Unsere Werte">Unsere Werte</a></li>
+              <li><a href="#Zukunft">Zukunft</a></li>
+            </ul>
+          </li>
+          <li onclick="clickliste(event)">
+            Studiengänge
+            <ul class="hide">
+              <li><a href="#Geistes-Wissen">Geistes-Wissen</a></li>
+              <li><a href="#Natur-Wissen">Natur-Wissen</a></li>
+              <li><a href="#Ingenieur">Ingenieur-Wissen</a></li>
+              <li>
+                <a href="#Ernährungswissen">Agrar und Ernährungswissen</a>
+              </li>
+            </ul>
+          </li>
+          <li onclick="clickliste(event)">
+            <a href="./forschung.html" target="_blank">Forschung</a>
+            <ul class="hide">
+              <li><a href="#KI-MI">KI-MI</a></li>
+              <li><a href="#Klimawandel">Klimawandel</a></li>
+              <li><a href="#Energieforschung">Energieforschung</a></li>
+              <li><a href="#Quantenphysik">Quantenphysik</a></li>
+              <li><a href="#Digitalisierung">Digitalisierung</a></li>
+            </ul>
+          </li>
+          <li><a href="#Kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Geistes-Wissen">
+        <div id="demoObject">
+          <h2>Unsere Studienbereiche</h2>
+          <h3>Geisteswissenschaften:</h3>
+          <ul>
+            <li>
+              Sprach- und Literaturwissenschaften: Germanistik, Anglistik,
+              Romanistik. Philosophie: Ethik, Logik, Metaphysik.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="Natur-Wissen">
+        <div id="demoObject">
+          <h3>Naturwissenschaften:</h3>
+          <ul>
+            <li>
+              Mathematik: Reine Mathematik, Angewandte Mathematik. Physik:
+              Theoretische Physik, Experimentalphysik. Chemie: Anorganische
+              Chemie, Organische Chemie. Biologie: Zoologie, Botanik,
+              Molekularbiologie. Informatik: Theoretische Informatik, Angewandte
+              Informatik.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="gallery">
+        <img src="./CSS-HTML/bilder/ki5.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/klim2.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/engy6.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/klim5.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/ki4.jpg" alt="" />
+      </div>
+      <section id="Ingenieur">
+        <div id="demoObject">
+          <h3>Ingenieurwissenschaften:</h3>
+          <ul>
+            <li>
+              Maschinenbau: Konstruktionstechnik Fertigungstechnik
+              Elektrotechnik und Informationstechnik Nachrichtentechnik
+              Automatisierungstechnik Bauingenieurwesen: Konstruktiver
+              Ingenieurbau Wasserbau Informatik: Technische Informatik
+              Wirtschaftsinformatik Wirtschaftsingenieurwesen:
+              Industriemanagement Operations Research
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="Ernährungswissen">
+        <div id="demoObject">
+          <h3>Agrar- und Ernährungswissenschaften:</h3>
+          <ul>
+            <li>
+              Landwirtschaft: Pflanzenbau Tierproduktion
+              Ernährungswissenschaften Lebensmittelchemie Ernährungsphysiologie
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="gallery">
+        <img src="./CSS-HTML/bilder/forsch2.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/dig2.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/cleaney1.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/nahklim1.jpg" alt="" />
+        <img src="./CSS-HTML/bilder/engy2.jpg" alt="" />
+      </div>
+    </main>
+    <footer>
+      <a href="#top">Nach oben</a>
+      <section id="Kontakt">
+        <h2>Kontakt</h2>
+        <address>
+          Harrison Bay Universität Evestraße 12 12345 Esesstadt Telefon: +49 123
+          456 789 E-Mail: info@harrison-uni.de
+        </address>
+      </section>
+
+      <section>
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Wir freuen uns über Ihre Nachricht!</p>
+        <form action="" method="post">
+          <label for="name">Name:</label>
+          <input type="email" id="name" name="email" required />
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="nachricht">Nachricht</label>
+          <textarea
+            id="nachricht"
+            name="nachricht"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Senden</button>
+        </form>
+      </section>
+
+      <p>&copy; Harrison Bay Universität 2024</p>
+      <ul class="social-media">
+        <li>
+          <a href="https://www.facebook.com/UniBeispiel" target="_blank"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+    </footer>
+    <script src="./CSS-HTML/javas/studi.js"></script>
+  </body>
+</html>
